@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Fighter Tracker</title>
+    <link href='style.css' rel='stylesheet'></link>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Search for Fighters</h1>
+        <a href="http://ufc-data-api.ufc.com/api/v3/us/fighters">text</a>
+
+        <input type="text" id="fighterName" class="form-control" placeholder="Type fighter Name here">
+
+        <button id="searchUFC" class="btn btn-primary btn-block">Search</button>
+
+        <h2>Champions</h2>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nickname</th>
+                    <th>Name</th>
+                    <th>Picture</th>
+                    <th>weight class</th>
+                    <td>Wins</td>
+                    <td>Losses</td>
+                    <td>Draws</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mighty Mouse</td>
+                    <td>Demetrious Johnson</td>
+                    <td>
+                      <img src="http://imagec.ufc.com/http%253A%252F%252Fmedia.ufc.tv%252F%252Ffighter_images%252FDemitrious_Johnson%252FJOHNSON_DEMETRIOUS_L-PRINT.png?mw300-mh300-tc1" />
+                    </td>
+                    <td>flyweight</td>
+                    <td>24</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>The Dominator</td>
+                    <td>Dominick Cruz</td>
+                    <td>
+                      <img src="http://imagec.ufc.com/http%253A%252F%252Fmedia.ufc.tv%252F%252Ffighter_images%252FDominick_Cruz%252FCRUZ_DOMINICK_L-PRINT.png?mw300-mh300-tc1" />
+                    </td>
+                    <td>Featherweight</td>
+                    <td>22</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='app.js'></script>
+</body>
+
+</html>
