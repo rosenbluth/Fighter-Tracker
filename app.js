@@ -7,10 +7,29 @@ $(document).ready(function() {
     }).done(function(data) {
         console.log(data);
     });
+    $( "#searchUFC").click(function(){
+        console.log("test this button");
+    var userInput = $( "#fighterName" ).val()
+      console.log(userInput);
+    })
+
 });
 
 
-//
+
+
+
+//When user types in a name that matches a fighter name, first or last name, then
+//return the matched info from JSON
+//Search function will trigger when user clicks the search button after the name is typed in.
+
+//We need to return the JSON from the Ajax call
+  //first_name, last_name etc.
+//We need the input from the user
+
+//Wirte a for loop that interates through the array of JSON data
+//Write an if statement inside the loop that says if the val input matches the first_name or
+//last_name to return the JSON data. Just object that matches that name
 
 
 //   $(init);
