@@ -16,7 +16,7 @@ $(document).ready(function() {
                   });
 
                 $.ajax({
-                    url: "http://cors-anywhere.herokuapp.com/http://ufc-data-api.ufc.com/api/v3/us/fighters",
+                    url: " http://galvanize-cors-proxy.herokuapp.com/http://ufc-data-api.ufc.com/api/v3/us/fighters",
                     dataType: "json",
                     type: "GET"
 
