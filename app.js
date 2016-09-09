@@ -1,7 +1,4 @@
 $(document).ready(function() {
-            // testing
-            //var  first_nameArray = [];
-            // var  last_nameArray = [];
             var fighterData;
             var nextFight;
             $.ajax({
@@ -19,28 +16,17 @@ $(document).ready(function() {
                     fighterData = data;
 
                     function ufcResults(data) {
-                        //
-                        // //loop data
-                        // first_name.push(data.first_name);
-                        // last_name = data.last_name;
-                        //
-                        //
-                        //
-                        //   var $first_name = data[0].first_name //data[i]
-                        //   var $last_name = data[0].last_name
+
                     }
                 });
 
                 $("#searchUFC").click(function() {
                     var userInput = $("#fighterName").val()
-                        //console.log("test this button");
-                        //console.log (typeof userInput);
+                        
                     var myFighterTable = $("#myFighterTable")
                     var userFighter = document.createElement("td");
                     var addFighter = $('.myFighters')
-                        //var addFighter2 = document.getElementsByClassName('myFighters');
-                        //document.body.table.tbody.tr.appendChild(userFighter);
-                        //console.log(fighterData);
+
                     for (var i = 0; i < fighterData.length; i++) {
                         if (userInput.toLowerCase() === fighterData[i].first_name.toLowerCase() ||
                             userInput.toLowerCase() === fighterData[i].last_name.toLowerCase()) {
