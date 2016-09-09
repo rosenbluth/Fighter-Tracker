@@ -1,5 +1,6 @@
 $(document).ready(function() {
-            // var  first_nameArray = [];
+            // test
+            //var  first_nameArray = [];
             // var  last_nameArray = [];
             var fighterData;
             var nextFight;
