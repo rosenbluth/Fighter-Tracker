@@ -1,5 +1,5 @@
 $(document).ready(function() {
-            // test
+            // testing
             //var  first_nameArray = [];
             // var  last_nameArray = [];
             var fighterData;
@@ -29,7 +29,6 @@ $(document).ready(function() {
                         //   var $first_name = data[0].first_name //data[i]
                         //   var $last_name = data[0].last_name
                     }
-                    //console.log(data[0].first_name + " " + data[0].last_name);
                 });
 
                 $("#searchUFC").click(function() {
