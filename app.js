@@ -14,15 +14,13 @@ $(document).ready(function() {
 
                 }).done(function(data) {
                     fighterData = data;
-
                     function ufcResults(data) {
-
+                      
                     }
                 });
 
                 $("#searchUFC").click(function() {
                     var userInput = $("#fighterName").val()
-                        
                     var myFighterTable = $("#myFighterTable")
                     var userFighter = document.createElement("td");
                     var addFighter = $('.myFighters')
