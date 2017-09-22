@@ -1,3 +1,6 @@
+![fightertracker](https://user-images.githubusercontent.com/19808088/30729066-5c97bbe6-9f22-11e7-9006-dbd859369ef1.png)
+
+
 # fighter-tracker
 The UFC, and MMA in general, is overlooked by the mainstream sports media.
 Although this has become less of a problem in the past few years, it is still hard to find reliable information. This project is a way to add your fighters and track them. I still need to add a bunch of features; such as: an alert that pops up when a UFC event is coming up, a table row that adds when a fighters next fight will be, a section that gives news updates, and more things I haven't thought of yet.
